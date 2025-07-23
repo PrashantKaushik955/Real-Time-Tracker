@@ -29,5 +29,6 @@ app.get("/",(req,res)=>{
 
 server.listen(9000,(err)=>{
     if(err) throw err;
-    console.log("server running at port 9000")
+    console.log("server running at port 9000");
+    Console.log("Hello from server");
 })
